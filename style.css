@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER SECTION CSS - Need to learn grid or flex box **/
+.grid-container {
+    display: grid;
+    margin: auto;
+    width: 90%;
+}
+
+/* Make skinner and longer */
+#LogoLeft {
+    width: 20%;
+    float: left;
+}
+
+/* Make skinner and longer */
+#ContactRight {
+    width: 35%;
+    float: right;
+}
+
+h1 {
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    color: #228B22;
+}
+
+.content {
+    text-align: left;
+    float: left;
+}
+
+#link {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.row {
+    margin: auto;
+   padding:3%;
+}
+
+.clm {
+    width: 25%;
+    float: left;
+    padding:3px;
+    margin: auto;
+}
+
+.clm img {
+    max-width: 100%;
+    min-height: 350px;
+    margin: auto;
+}
+
